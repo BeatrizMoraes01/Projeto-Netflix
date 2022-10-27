@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: auto;
+    background: black;
+}
+a{
+    text-decoration: none;
+}
+
+header{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cabeçalho{
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 15px;
+    width: 190px;
+}
+
+.menu ul{
+    list-style: none;
+    font-size: 22px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.menu li a{
+    color: white;
+    padding: 15px;
+}
+
+.seta{
+    margin-bottom: 20px;
+}
+
+.icones-topo{
+    margin-right: 10px;
+}
+
+main{
+
+    color: white;
+    width: 650px;
+    height: 500px;
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.play{
+  border:rgb(254, 254, 254) 1px solid;
+  width: 150px;
+  height: 50px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.palavra-play{
+  color: white;
+  margin-top: 5px;
+  font-size: 28px;
+}
+
+.list{
+  border:rgb(254, 254, 254) 1px solid;
+  width: 200px;
+  height: 75px;
+  margin: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.palavra-list{
+  color: white;
+  margin-top: 5px;
+  font-size: 28px;
+}
+
+main .meio{
+    width: 650px;
+    display: flex;
+    margin-top: 25px;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.container{
+    background: black;
+}
+.container-1{
+  margin: 20px;
+  padding: 10px;
+}
+/*ESTRELAS*/
+.container-2{
+    width: 400px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+.estrelas input[type=radio] {
+    display: none;
+  }
+  .estrelas label i.fa{
+    font-size: 2.5em
+  }
+  .estrelas label i.fa:before {
+    content:'\f005';
+    color: rgb(255, 68, 35);
+  }
+  .estrelas input[type=radio]:checked ~ label i.fa:before {
+    color: #CCC;
+  }
+  .container-3{
+    width: 600px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .container-3 .play{
+    border: white 1px solid;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+  }
+
+  .container-3 .my-list{
+    border: white 1px solid;
+    width: 200px;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 10px;
+  }
+  strong{
+    font-size: 50px;
+  }
+
+  .container-4{
+    font-size: 12px;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+

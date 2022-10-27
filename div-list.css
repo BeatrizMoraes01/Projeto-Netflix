@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: auto;
+    background: black;
+}
+
+.list{
+    border:rgb(254, 254, 254) 1px solid;
+    width: 150px;
+    height: 50px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.palavra-list{
+    color: white;
+    margin-top: 5px;
+    font-size: 28px;
+}
